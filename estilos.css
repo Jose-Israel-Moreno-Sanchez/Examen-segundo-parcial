@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #023816, #08f23b);
+    color: #f0f6f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    margin-right: 10px;
+}
+
+nav a {
+    
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.welcome {
+    text-align: center;
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h1 {
+    font-size: 1.8em;
+}
+
+.welcome p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+.productos {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.productos h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin: 10px 0;
+    font-size: 1.3em;
+}
+
+.producto p {
+    font-size: 1em;
+    color: #555;
+}
+
+.precio {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+button {
+    background: #035135;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #035135;
+}
+
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+/*.logo{
+    width: 50px;
+    height: 50px;
+}*/
